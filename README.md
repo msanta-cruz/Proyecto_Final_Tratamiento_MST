@@ -53,18 +53,15 @@ El número total de parámetros entrenables en el modelo es 11,180,488.
 
 # Modelo VGG16
 	
-	El modelo VGG16 pre-entrenado, agrega una capa densa para la clasificación y crea un modelo personalizado,el código tiene un total de cuatro 	capas principales: una capa de entrada, las capas del modelo VGG16 pre-entrenado, una capa de salida y la capa del modelo personalizado.
+El modelo VGG16 pre-entrenado, agrega una capa densa para la clasificación y crea un modelo personalizado,el código tiene un total de cuatro 	capas principales: una capa de entrada, las capas del modelo VGG16 pre-entrenado, una capa de salida y la capa del modelo personalizado.
 	
-	El número de parámetros no entrenables es de 134,260,544. Estos son los parámetros de las capas convolucionales y de agrupación del modelo 	VGG16 pre-entrenado
+El número de parámetros no entrenables es de 134,260,544. Estos son los parámetros de las capas convolucionales y de agrupación del modelo 	VGG16 pre-entrenado
 	
-	El número de parámetros entrenables es de 32,776. Estos son los parámetros de la capa densa
-
+El número de parámetros entrenables es de 32,776. Estos son los parámetros de la capa densa
 
 #Modelo VGG16 Tunning
-	
-	Las características aprendidas por VGG16 en tareas generales de clasificación de imágenes, personalizar el modelo añadiendo capas 	adicionales, y realizar fine-tuning al permitir que algunas capas pre-entrenadas se actualicen durante el entrenamiento.
-	
-	En lugar de congelar completamente las capas pre-entrenadas. El proceso de "fine-tuning" implica permitir que algunas capas pre-entrenadas se 	actualicen durante el entrenamiento, mientras que otras se mantienen congeladas.
+Las características aprendidas por VGG16 en tareas generales de clasificación de imágenes, personalizar el modelo añadiendo capas 	adicionales, y realizar fine-tuning al permitir que algunas capas pre-entrenadas se actualicen durante el entrenamiento.
+En lugar de congelar completamente las capas pre-entrenadas. El proceso de "fine-tuning" implica permitir que algunas capas pre-entrenadas se 	actualicen durante el entrenamiento, mientras que otras se mantienen congeladas.
 
 # Modelo Resnet 50 
 	El modelo pre-entrenado ResNet50. Agrega capas densas adicionales, congela la mayoría de las capas pre-entrenadas y compila el modelo para su 	entrenamiento y evaluación en tu problema de clasificación de imágenes específico.
