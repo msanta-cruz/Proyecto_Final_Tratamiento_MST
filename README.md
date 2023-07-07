@@ -43,9 +43,9 @@ Dentro de la configuración de modelos se detallan  los siguientes :
 
 Dentro de este modelo se presentaron 11 capas neuronales de lo que se obtuvo una respuesta de entrenamiento de 11180488
 
-5 capas de convolución 2D (Conv2D).
-2 capas de agrupamiento máximo (MaxPool2D).
-1 capa de aplanamiento (Flatten).
+	5 capas de convolución 2D (Conv2D).
+	2 capas de agrupamiento máximo (MaxPool2D).
+	1 capa de aplanamiento (Flatten).
 	3 capas completamente conectadas (Dense).
 	1 capa de salida completamente conectada (Dense) con función de activación softmax.
 
