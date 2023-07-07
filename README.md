@@ -39,7 +39,7 @@ Creación y entrenamientos
 
 # Creación y entrenamiento de modelo CNN
 
-	Dentro de la configuración de modelos se detallan  los siguientes :
+Dentro de la configuración de modelos se detallan  los siguientes :
 
 	Dentro de este modelo se presentaron 11 capas neuronales de lo que se obtuvo una respuesta de entrenamiento de 11180488
 
