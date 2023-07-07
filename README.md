@@ -64,12 +64,12 @@ Las características aprendidas por VGG16 en tareas generales de clasificación 
 En lugar de congelar completamente las capas pre-entrenadas. El proceso de "fine-tuning" implica permitir que algunas capas pre-entrenadas se 	actualicen durante el entrenamiento, mientras que otras se mantienen congeladas.
 
 # Modelo Resnet 50 
-	El modelo pre-entrenado ResNet50. Agrega capas densas adicionales, congela la mayoría de las capas pre-entrenadas y compila el modelo para su 	entrenamiento y evaluación en tu problema de clasificación de imágenes específico.
+El modelo pre-entrenado ResNet50. Agrega capas densas adicionales, congela la mayoría de las capas pre-entrenadas y compila el modelo para su 	entrenamiento y evaluación en tu problema de clasificación de imágenes específico.
 
 # Modelo VGG19 
 
-	Mayor cantidad de parámetros y memoria requerida.
-	Buen rendimiento.
+Mayor cantidad de parámetros y memoria requerida.
+Buen rendimiento.
 
 Optimizador utilizado 
 
